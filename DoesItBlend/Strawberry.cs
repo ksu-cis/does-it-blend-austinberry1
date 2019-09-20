@@ -7,13 +7,13 @@ namespace DoesItBlend
     /// <summary>
     /// A class representing a Strawberry
     /// </summary>
-    public class Strawberry : Fruit
+    public  class Strawberry : Fruit
     {
         /// <summary>
         /// Blends the strawberry
         /// </summary>
         /// <returns>The result of blending a strawberry</returns>
-        public string Blend()
+        public override string Blend()
         {
             return "Gooey Red Sweetness";
         }
